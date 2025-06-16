@@ -2,7 +2,6 @@
 <html>
 <head>
     <title>Game of Strife</title>
-    <script src="https://cjrtnc.leaningtech.com/3.0/loader.js"></script>
     <style>
         #game-container {
             width: 800px;
@@ -14,14 +13,20 @@
 <body>
     <div id="game-container"></div>
     <script>
-        cheerpjInit({
-            mountedDirs: {
-                '/data': 'https://raw.githubusercontent.com/FalcoWolf1212/GameOfStrife/main/GameOfStrife/data'
-            },
-            cache: true
-        });
-        cheerpjCreateDisplay(800, 600, "game-container");
-        cheerpjRunJar("https://github.com/FalcoWolf1212/GameOfStrife/raw/main/GameOfStrife/GameOfStrife.jar");
+        // Dynamically load CheerpJ loader.js and wait for it to finish
+        var loader = document.createElement('script');
+        loader.src = "https://cjrtnc.leaningtech.com/3.0/loader.js";
+        loader.onload = function() {
+            cheerpjInit({
+                mountedDirs: {
+                    '/data': 'https://raw.githubusercontent.com/FalcoWolf1212/GameOfStrife/main/GameOfStrife/data'
+                },
+                cache: true
+            });
+            cheerpjCreateDisplay(800, 600, "game-container");
+            cheerpjRunJar("https://github.com/FalcoWolf1212/GameOfStrife/raw/main/GameOfStrife/GameOfStrife.jar");
+        };
+        document.head.appendChild(loader);
     </script>
 </body>
 </html>
