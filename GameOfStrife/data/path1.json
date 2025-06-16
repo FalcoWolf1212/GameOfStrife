@@ -1,0 +1,109 @@
+{
+  "path": [
+    { "ID": 0, "type": "start", "x_coord": 400, "y_coord":450, "width": 100, "height": 100, "next": [1], "victory": "False" },
+    { "ID": 1, "type": "white", "x_coord": 350, "y_coord":450, "width": 50, "height": 50, "next": [2], "victory": "False" },
+    { "ID": 2, "type": "green", "x_coord": 300, "y_coord":450, "width": 50, "height": 50, "next": [3], "victory": "False" },
+    { "ID": 3, "type": "white", "x_coord": 200, "y_coord":400, "width": 100, "height":100, "next": [5,4], "victory": "False" },
+
+    
+    { "ID": 5, "type": "green", "x_coord": 150, "y_coord":400, "width": 50, "height":50, "next": [7], "victory": "False" },
+    { "ID": 7, "type": "white", "x_coord": 150, "y_coord":350, "width": 50, "height":50, "next": [9], "victory": "False" },
+    { "ID": 9, "type": "blue", "x_coord": 150, "y_coord":300, "width": 50, "height":50, "next": [11], "victory": "False" },
+    { "ID": 11, "type": "green", "x_coord": 100, "y_coord":200, "width": 100, "height":100, "next": [12], "victory": "False" },
+    { "ID": 12, "type": "white", "x_coord": 50, "y_coord":50, "width": 150, "height":150, "next": [13], "victory": "False" },
+    { "ID": 13, "type": "white", "x_coord": 200, "y_coord":100, "width": 100, "height":50, "next": [14], "victory": "False" },
+    { "ID": 14, "type": "green", "x_coord": 300, "y_coord":100, "width": 50, "height":50, "next": [15], "victory": "False" },
+    { "ID": 15, "type": "red", "x_coord": 300, "y_coord":150, "width": 50, "height":50, "next": [10], "victory": "False" },
+
+    { "ID": 4, "type": "red", "x_coord": 250, "y_coord":350, "width": 50, "height":50, "next": [6], "victory": "False" },
+    { "ID": 6, "type": "white", "x_coord": 250, "y_coord":300, "width": 50, "height":50, "next": [8], "victory": "False" },
+    { "ID": 8, "type": "red", "x_coord": 300, "y_coord":300, "width": 50, "height":50, "next": [10], "victory": "False" },
+
+    { "ID": 10, "type": "white", "x_coord": 300, "y_coord":200, "width": 100, "height":100, "next": [16], "victory": "False" },
+    { "ID": 16, "type": "blue", "x_coord": 400, "y_coord":250, "width": 50, "height":100, "next": [17], "victory": "False" },
+    { "ID": 17, "type": "green", "x_coord": 450, "y_coord":300, "width": 50, "height":50, "next": [18], "victory": "False" },
+    { "ID": 18, "type": "white", "x_coord": 450, "y_coord":350, "width": 50, "height":50, "next": [19], "victory": "False" },
+    { "ID": 19, "type": "green", "x_coord": 500, "y_coord":350, "width": 50, "height":50, "next": [20], "victory": "False" },
+    { "ID": 20, "type": "white", "x_coord": 550, "y_coord":350, "width": 100, "height":100, "next": [21], "victory": "False" },
+    { "ID": 21, "type": "white", "x_coord": 600, "y_coord":300, "width": 50, "height":50, "next": [22], "victory": "False" },
+    { "ID": 22, "type": "blue", "x_coord": 650, "y_coord":300, "width": 50, "height":50, "next": [23], "victory": "False" },
+    { "ID": 23, "type": "red", "x_coord": 700, "y_coord":300, "width": 50, "height":50, "next": [27,24], "victory": "False" },
+    
+    { "ID": 24, "type": "red", "x_coord": 750, "y_coord":300, "width": 50, "height":50, "next": [25], "victory": "False" },
+    { "ID": 25, "type": "blue", "x_coord": 800, "y_coord":250, "width": 100, "height":100, "next": [26], "victory": "False" },
+    { "ID": 26, "type": "green", "x_coord": 900, "y_coord":150, "width": 150, "height":150, "next": [35], "victory": "False" },
+
+    { "ID": 27, "type": "white", "x_coord": 700, "y_coord":250, "width": 50, "height":50, "next": [28], "victory": "False" },
+    { "ID": 28, "type": "white", "x_coord": 700, "y_coord":200, "width": 50, "height":50, "next": [29], "victory": "False" },
+    { "ID": 29, "type": "green", "x_coord": 650, "y_coord":200, "width": 50, "height":50, "next": [30], "victory": "False" },
+    { "ID": 30, "type": "white", "x_coord": 600, "y_coord":100, "width": 100, "height":100, "next": [31], "victory": "False" },
+    { "ID": 31, "type": "red", "x_coord": 700, "y_coord":100, "width": 50, "height":50, "next": [32], "victory": "False" },
+    { "ID": 32, "type": "green", "x_coord": 750, "y_coord":100, "width": 50, "height":50, "next": [33], "victory": "False" },
+    { "ID": 33, "type": "white", "x_coord": 800, "y_coord":100, "width": 50, "height":100, "next": [34], "victory": "False" },
+    { "ID": 34, "type": "blue", "x_coord": 850, "y_coord":150, "width": 50, "height":50, "next": [26], "victory": "False" },
+
+    { "ID": 35, "type": "white", "x_coord": 1050, "y_coord":200, "width": 50, "height":50, "next": [36], "victory": "False" },
+    { "ID": 36, "type": "red", "x_coord": 1100, "y_coord":200, "width": 50, "height":100, "next": [37], "victory": "False" },
+    { "ID": 37, "type": "blue", "x_coord": 1150, "y_coord":250, "width": 50, "height":100, "next": [38], "victory": "False" },
+    { "ID": 38, "type": "green", "x_coord": 1200, "y_coord":250, "width": 100, "height":150, "next": [40,48], "victory": "False" },
+    
+    { "ID": 39, "type": "white", "x_coord": 1300, "y_coord":250, "width": 50, "height":100, "next": [38], "victory": "True" },
+
+    { "ID": 40, "type": "green", "x_coord": 1200, "y_coord":200, "width": 50, "height":50, "next": [41], "victory": "False" },
+    { "ID": 41, "type": "white", "x_coord": 1200, "y_coord":100, "width": 100, "height":100, "next": [42], "victory": "False" },
+    { "ID": 42, "type": "green", "x_coord": 1300, "y_coord":100, "width": 100, "height":100, "next": [43], "victory": "False" },
+    { "ID": 43, "type": "green", "x_coord": 1400, "y_coord":150, "width": 50, "height":50, "next": [44], "victory": "True" },
+    { "ID": 44, "type": "white", "x_coord": 1400, "y_coord":200, "width": 50, "height":50, "next": [45], "victory": "False" },
+    { "ID": 45, "type": "green", "x_coord": 1400, "y_coord":250, "width": 50, "height":50, "next": [46], "victory": "False" },
+    { "ID": 46, "type": "blue", "x_coord": 1400, "y_coord":300, "width": 50, "height":50, "next": [47], "victory": "True" },
+    { "ID": 47, "type": "white", "x_coord": 1350, "y_coord":300, "width": 50, "height":50, "next": [39], "victory": "False" },
+
+    { "ID": 48, "type": "red", "x_coord": 1250, "y_coord":400, "width": 50, "height":50, "next": [49], "victory": "False" },
+    { "ID": 49, "type": "red", "x_coord": 1250, "y_coord":450, "width": 50, "height":50, "next": [68,50], "victory": "False" },
+
+    { "ID": 68, "type": "green", "x_coord": 1300, "y_coord":450, "width": 50, "height":50, "next": [69], "victory": "True" },
+    { "ID": 69, "type": "white", "x_coord": 1300, "y_coord":500, "width": 50, "height":50, "next": [70], "victory": "False" },
+    { "ID": 70, "type": "white", "x_coord": 1250, "y_coord":550, "width": 150, "height":50, "next": [71], "victory": "False" },
+    { "ID": 71, "type": "blue", "x_coord": 1300, "y_coord":600, "width": 50, "height":50, "next": [72], "victory": "False" },
+    { "ID": 72, "type": "green", "x_coord": 1300, "y_coord":650, "width": 50, "height":50, "next": [73], "victory": "True" },
+    { "ID": 73, "type": "red", "x_coord": 1300, "y_coord":700, "width": 100, "height":100, "next": [74], "victory": "False" },
+    { "ID": 74, "type": "white", "x_coord": 1200, "y_coord":750, "width": 100, "height":100, "next": [75], "victory": "False" },
+    { "ID": 75, "type": "white", "x_coord": 1200, "y_coord":700, "width": 50, "height":50, "next": [76], "victory": "True" },
+    { "ID": 76, "type": "red", "x_coord": 1200, "y_coord":650, "width": 50, "height":50, "next": [77], "victory": "True" },
+    { "ID": 77, "type": "white", "x_coord": 1150, "y_coord":650, "width": 50, "height":50, "next": [78], "victory": "True" },
+    { "ID": 78, "type": "green", "x_coord": 1050, "y_coord":600, "width": 100, "height":100, "next": [79], "victory": "False" },
+    { "ID": 79, "type": "green", "x_coord": 1100, "y_coord":700, "width": 50, "height":50, "next": [80], "victory": "False" },
+    { "ID": 80, "type": "white", "x_coord": 1100, "y_coord":750, "width": 50, "height":50, "next": [81], "victory": "True" },
+    { "ID": 81, "type": "blue", "x_coord": 1100, "y_coord":800, "width": 50, "height":50, "next": [82], "victory": "False" },
+    { "ID": 82, "type": "red", "x_coord": 1050, "y_coord":800, "width": 50, "height":50, "next": [83], "victory": "False" },
+    { "ID": 83, "type": "white", "x_coord": 1000, "y_coord":800, "width": 50, "height":50, "next": [84], "victory": "True" },
+    { "ID": 84, "type": "white", "x_coord": 950, "y_coord":800, "width": 50, "height":50, "next": [85], "victory": "False" },
+    { "ID": 85, "type": "green", "x_coord": 950, "y_coord":750, "width": 50, "height":50, "next": [57], "victory": "False" },
+
+
+
+    { "ID": 50, "type": "white", "x_coord": 1200, "y_coord":450, "width": 50, "height":50, "next": [51], "victory": "False" },
+    { "ID": 51, "type": "white", "x_coord": 1150, "y_coord":450, "width": 50, "height":50, "next": [52], "victory": "True" },
+    { "ID": 52, "type": "red", "x_coord": 1050, "y_coord":400, "width": 100, "height":100, "next": [53], "victory": "False" },
+    { "ID": 53, "type": "red", "x_coord": 1000, "y_coord":450, "width": 50, "height":100, "next": [54], "victory": "False" },
+    { "ID": 54, "type": "red", "x_coord": 900, "y_coord":400, "width": 100, "height":150, "next": [55], "victory": "True" },
+    { "ID": 55, "type": "red", "x_coord": 950, "y_coord":550, "width": 50, "height":50, "next": [56], "victory": "False" },
+    { "ID": 56, "type": "green", "x_coord": 950, "y_coord":600, "width": 50, "height":50, "next": [57], "victory": "True" },
+
+    { "ID": 57, "type": "white", "x_coord": 900, "y_coord":650, "width": 100, "height":100, "next": [58], "victory": "False" },
+    { "ID": 58, "type": "blue", "x_coord": 850, "y_coord":650, "width": 50, "height":50, "next": [59], "victory": "False" },
+    { "ID": 59, "type": "blue", "x_coord": 800, "y_coord":650, "width": 50, "height":50, "next": [60], "victory": "True" },
+    { "ID": 60, "type": "blue", "x_coord": 750, "y_coord":650, "width": 50, "height":50, "next": [61], "victory": "True" },
+    { "ID": 61, "type": "red", "x_coord": 700, "y_coord":650, "width": 50, "height":50, "next": [62], "victory": "False" },
+    { "ID": 62, "type": "green", "x_coord": 650, "y_coord":650, "width": 50, "height":50, "next": [63], "victory": "True" },
+    { "ID": 63, "type": "white", "x_coord": 550, "y_coord":650, "width": 100, "height":100, "next": [64], "victory": "False" },
+
+    { "ID": 64, "type": "green", "x_coord": 550, "y_coord":600, "width": 50, "height":50, "next": [65], "victory": "True" },
+    { "ID": 65, "type": "white", "x_coord": 550, "y_coord":550, "width": 50, "height":50, "next": [66], "victory": "True" },
+    { "ID": 66, "type": "red", "x_coord": 550, "y_coord":500, "width": 50, "height":50, "next": [67], "victory": "True" },
+    { "ID": 67, "type": "white", "x_coord": 500, "y_coord":500, "width": 50, "height":50, "next": [0], "victory": "True" }
+
+
+  ]
+}
+

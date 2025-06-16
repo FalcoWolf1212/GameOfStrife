@@ -1,0 +1,419 @@
+{
+	"cards": [
+		{
+			"description": "Your People are very happy! They celebrate 'We love the Country' day, earning you 100 gold!",
+			"valueChange": 100,
+			"type": "green"
+		},
+		{
+			"description": "Sinterklaas enters the country, and gives your people presents! You get 50 gold from him.",
+			"valueChange": 50,
+			"type": "green"
+		},
+		{
+			"description": "You recently uncovered a rare gem deposit! It is estimated to be worth 200 gold!",
+			"valueChange": 200,
+			"type": "green"
+		},
+		{
+			"description": "You reap 250 gold from conquering a lesser neighbor.",
+			"valueChange": 250,
+			"type": "green"
+		},
+		{
+			"description": "You entered a trade agreement with England, earning you 150 gold.",
+			"valueChange": 150,
+			"type": "green"
+		},
+		{
+			"description": "GOLDEN AGE!!!!!!! 500 gold for you",
+			"valueChange": 500,
+			"type": "green"
+		},
+		{
+			"description": "A great harvest! Hallelujah!! +175 gold!",
+			"valueChange": 175,
+			"type": "green"
+		},
+		{
+			"description": "A great scientist discovered the printing press in your country! This invention has earned you 125 gold.",
+			"valueChange": 125,
+			"type": "green"
+		},
+		{
+			"description": "Trump lifted tariffs on your country. +75 gold.",
+			"valueChange": 75,
+			"type": "green"
+		},
+		{
+			"description": "A rainbow appears on the countryside!!!!! You find a pot with 5 gold in it!!!!!!!!",
+			"valueChange": 5,
+			"type": "green"
+		},
+		{
+			"description": "An extraordinarily large camel has been born in your country. It is worth 8 gold.",
+			"valueChange": 8,
+			"type": "green"
+		},
+		{
+			"description": "You allocated more housing, leading to a complicated positive feedback loop wherein your country has entered into a new age of prosperity. +50 gold from happy tenants.",
+			"valueChange": 50,
+			"type": "green"
+		},
+		{
+			"description": "Elfstedentocht is happening! +25 gold from increased tourism income!",
+			"valueChange": 25,
+			"type": "green"
+		},
+		{
+			"description": "You are in a trade war with your overseas neighbour, LOSING you 80 gold.",
+			"methodType": "selfMoneyChange",
+			"valueChange": -80,
+			"duration": 0,
+			"type": "red"
+		},
+		{
+			"description": "A forest fire has burnt an UNESCO World Heritage Site... Reparations cost 150 gold.",
+			"methodType": "selfMoneyChange",
+			"valueChange": -150,
+			"duration": 0,
+			"type": "red"
+		},
+		{
+			"description": "Traffic jams make your citizens angry! -50 gold due to road inefficiency.",
+			"methodType": "selfMoneyChange",
+			"valueChange": -50,
+			"duration": 0,
+			"type": "red"
+		},
+		{
+			"description": "You have stolen information from your neighbours, which loses EVERYONE ELSE 60 gold.",
+			"methodType": "otherMoneyChange",
+			"valueChange": -60,
+			"duration": 0,
+			"type": "red"
+		},
+		{
+			"description": "Wastewater from your industrial areas pollutes the rivers from neighbouring countries. EVERYONE ELSE loses 90 gold.",
+			"methodType": "otherMoneyChange",
+			"valueChange": -90,
+			"duration": 0,
+			"type": "red"
+		},
+		{
+			"description": "You enacted tariffs on EVERYONE ELSE! This loses THEM 200 gold, because that is how tariffs work.",
+			"methodType": "otherMoneyChange",
+			"valueChange": -200,
+			"duration": 0,
+			"type": "red"
+		},
+		{
+			"description": "Biodiversity is blooming in EVERYONE ELSE's countries, gaining them 125 gold, but the animals don't seem to like you.",
+			"methodType": "otherMoneyChange",
+			"valueChange": 125,
+			"duration": 0,
+			"type": "red"
+		},
+		{
+			"description": "The other countries have made trade agreements that exclude you. EVERYONE ELSE gains 75 gold!",
+			"methodType": "otherMoneyChange",
+			"valueChange": 75,
+			"duration": 0,
+			"type": "red"
+		},
+		{
+			"description": "There has been an economic recession. Your income is decreased by 20 for 5 turns.",
+			"methodType": "incomeChange",
+			"valueChange": -20,
+			"duration": 5,
+			"type": "red"
+		},
+		{
+			"description": "The great depression happened. You are in severe economic STRIFE for 3 turns! (-100 gold per turn)",
+			"methodType": "incomeChange",
+			"valueChange": -100,
+			"duration": 3,
+			"type": "red"
+		},
+		{
+			"description": "A disease outbreak has occured in your country. You must allocate 10 gold per turn to healthcare for 7 turns.",
+			"methodType": "incomeChange",
+			"valueChange": -10,
+			"duration": 7,
+			"type": "red"
+		},
+		{
+			"description": "Technological progress has skyrocketed after an unknown scientist discovered 'The Wheel'! (+3 Die faces for 3 turns)",
+			"methodType": "dieChange",
+			"valueChange": 3,
+			"duration": 3,
+			"type": "red"
+		},
+		{
+			"description": "Luddites have taken over society! Technological progress is halted. (-2 Die faces for 3 turns)",
+			"methodType": "dieChange",
+			"valueChange": -2,
+			"duration": 3,
+			"type": "red"
+		},
+		{
+			"description": "You sabotaged your neighbor's highways! They must skip their next turn to fix it.",
+			"methodType": "skipTurn",
+			"valueChange": 0,
+			"duration": 0,
+			"type": "red"
+		},
+		{
+			"description": "You sabotaged your neighbor's railway network! They must skip their next turn to fix it.",
+			"methodType": "skipTurn",
+			"valueChange": 0,
+			"duration": 0,
+			"type": "red"
+		},
+		{
+			"description": "Your population is nostalgic and thinking about the good old times. Your progress is reduced to zero.",
+			"methodType": "moveToStart",
+			"valueChange": 0,
+			"duration": 0,
+			"type": "red"
+		},
+		{
+			"description": "Your nation has domesticated the Coffee bean. They are tireless and allow you to roll again.",
+			"methodType": "rollAgain",
+			"valueChange": 0,
+			"duration": 0,
+			"type": "red"
+		},
+		{
+			"description": "Your nation has domesticated the Coca Cola. They are tireless and allow you to roll again.",
+			"methodType": "rollAgain",
+			"valueChange": 0,
+			"duration": 0,
+			"type": "red"
+		},
+		{
+			"description": "Your spies have broken into the mainframe, allowing you to swap places with a country of your choosing. Who do you choose to hack?",
+			"type": "blue",
+			"choiceType": "playerChoice",
+			"methodType": "swapPlaces"
+		},
+		{
+			"description": "You are able to allocate funds to set up an Embassy, allowing you to move to a player of your choice. Who will you visit?",
+			"type": "blue",
+			"choiceType": "playerChoice",
+			"methodType": "moveToPlayer"
+		},
+		{
+			"description": "A mistake has been made in the administration of the World Bank! Thankfully, you are able to take advantage and swap money with another player. Who do you choose?",
+			"type": "blue",
+			"choiceType": "playerChoice",
+			"methodType": "swapMoney"
+		},
+		{
+			"description": "Your best scientists have made a new innovation! You can choose to sell it for money, or instead use it to compete with other countries, which loses them money.",
+			"type": "blue",
+			"choiceType": "options",
+			"options": [
+				{
+					"description": "You earn 150 money.",
+					"methodType": "selfMoneyChange",
+					"valueChange": 150
+				},
+				{
+					"description": "Everyone else loses 100 money.",
+					"methodType": "otherMoneyChange",
+					"valueChange": -100
+				}
+			]
+		},
+		{
+			"description": "You managed to achieve a monopoly on bananas. Will you choose to earn money with it or skyrocket the prices so that everyone becomes poor?",
+			"type": "blue",
+			"choiceType": "options",
+			"options": [
+				{
+					"description": "You earn 100 money.",
+					"methodType": "selfMoneyChange",
+					"valueChange": 100
+				},
+				{
+					"description": "Everyone else loses 75 money.",
+					"methodType": "otherMoneyChange",
+					"valueChange": -75
+				}
+			]
+		},
+		{
+			"description": "Your advisors are arguing. One wants to invest in sustainable agriculture for future profits while the other one wants to reap the rewards of intensive agriculture for short-term wealth. You get to make the deciding choice!",
+			"type": "blue",
+			"choiceType": "options",
+			"options": [
+				{
+					"description": "Sustainable Agriculture is the way! +15 income, but -200 money.",
+					"methodType": "incomeForMoney",
+					"incomeChange": 15,
+					"moneyChange": -200
+				},
+				{
+					"description": "Reap the rewards! Even if it may harm the future of our nation. +400 money, but -10 income.",
+					"methodType": "incomeForMoney",
+					"incomeChange": -10,
+					"moneyChange": 400
+				}
+			]
+		},
+		{
+			"description": "There is a housing crisis in your country! Do you build more houses to solve this problem?",
+			"type": "blue",
+			"choiceType": "options",
+			"options": [
+				{
+					"description": "Yes! -500 money.",
+					"methodType": "incomeForMoney",
+					"incomeChange": 0,
+					"moneyChange": -500
+				},
+				{
+					"description": "No! -10 income.",
+					"methodType": "incomeForMoney",
+					"incomeChange": -10,
+					"moneyChange": 0
+				}
+			]
+		},
+		{
+			"description": "Due to the rise of ChatGPT and other large language models, the demand for energy has gone up. Do you want to invest into Nuclear power?",
+			"type": "blue",
+			"choiceType": "options",
+			"options": [
+				{
+					"description": "Yes, we need Nuclear to sustain ourselves. -500 money, +20 income.",
+					"methodType": "incomeForMoney",
+					"incomeChange": 20,
+					"moneyChange": -500
+				},
+				{
+					"description": "No... Nuclear power is scary.... Let's cash in on our coal powerplants instead. +250 money.",
+					"methodType": "incomeForMoney",
+					"incomeChange": 0,
+					"moneyChange": 250
+				}
+			]
+		},
+		{
+			"description": "Your heir has fallen ill. If they die, sadness will overtake you and you must pay for an expensive funeral of 500 money. Do you pray for them or do you send medical aid?",
+			"type": "blue",
+			"choiceType": "gamble",
+			"options": [
+				{
+					"description": "We shall pray, doctors are no good for their price. 25% chance for heir to survive.",
+					"methodType": "moneyChance",
+					"fixedCost": 0,
+					"penalty": -500,
+					"penaltyChance": 0.75
+				},
+				{
+					"description": "Send in the doctors! Anything to keep our heir alive!! 75% chance of heir to survive, but pay 250 money.",
+					"methodType": "moneyChance",
+					"fixedCost": -250,
+					"penalty": -500,
+					"penaltyChance": 0.25
+				}
+			]
+		},
+		{
+			"description": "You discovered a new type of pesticide. It seems very effective, but you don't know what the long term effects are yet...",
+			"type": "blue",
+			"choiceType": "gamble",
+			"options": [
+				{
+					"description": "We should not be reckless. Let's do more research before any large scale implementation.",
+					"methodType": "incomeChance",
+					"outcome": 0
+				},
+				{
+					"description": "We must take chances! The worst harvest is one you never get!",
+					"methodType": "incomeChance",
+					"successChance": 0.5,
+					"successEffect": 20,
+					"failureEffect": -20
+				}
+			]
+		},
+		{
+			"description": "You have the superior spies, which are able to siphon 230 gold from any country. Which country do you choose to steal from?",
+			"type": "blue",
+			"choiceType": "playerChoice",
+			"methodType": "stealMoney",
+			"stealAmount": 230
+		},
+		{
+			"description": "You are in the mood for war. Which country do you choose to attack and steal the crown jewels from? They are worth 180 gold.",
+			"type": "blue",
+			"choiceType": "playerChoice",
+			"methodType": "stealMoney",
+			"stealAmount": 180
+		},
+		{
+			"description": "Your people are jealous of the artwork in the national museums of other countries. It is now your decision to steal the 180 gold masterpiece from a country of your choice...",
+			"type": "blue",
+			"choiceType": "playerChoice",
+			"methodType": "stealMoney",
+			"stealAmount": 180
+		},
+		{
+			"description": "The flora and fauna is blossoming. As a reward from the WNF, you can choose one of the following options:",
+			"type": "blue",
+			"choiceType": "options",
+			"options": [
+				{
+					"description": "Increase your steps by 3 for the next 3 turns.",
+					"methodType": "changeSteps",
+					"valueChange": 3,
+					"duration": 3
+				},
+				{
+					"description": "Increase your income by 20 for the next 3 turns.",
+					"methodType": "changeIncome",
+					"valueChange": 20,
+					"duration": 3
+				}
+			]
+		},
+		{
+			"description": "It's starting to rain again after weeks of drought. The harvests are booming! Do you turn the taxes into extra steps or extra income?",
+			"type": "blue",
+			"choiceType": "options",
+			"options": [
+				{
+					"description": "Increase your steps by 2 for the next 5 turns.",
+					"methodType": "changeSteps",
+					"valueChange": 2,
+					"duration": 5
+				},
+				{
+					"description": "Increase your income by 8 for the next 5 turns.",
+					"methodType": "changeIncome",
+					"valueChange": 8,
+					"duration": 5
+				}
+			]
+		},
+		{
+			"description": "Apparently, forest people have been logging trees in secret. The squirrels are mad and demand punishment. Do you go back to start or lose 300 gold?",
+			"type": "blue",
+			"choiceType": "options",
+			"options": [
+				{
+					"description": "Go back to start.",
+					"methodType": "moveToStart"
+				},
+				{
+					"description": "Lose 300 gold.",
+					"methodType": "selfMoneyChange",
+					"valueChange": -300
+				}
+			]
+		}
+	]
+}

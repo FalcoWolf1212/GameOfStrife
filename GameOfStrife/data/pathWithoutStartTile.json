@@ -1,0 +1,10 @@
+{
+  "path": [
+    { "ID": 1, "type": "green", "x_coord": 400, "y_coord":450, "width": 100, "height": 100, "next": [1], "victory": "False" },
+    { "ID": 1, "type": "white", "x_coord": 350, "y_coord":450, "width": 50, "height": 50, "next": [2], "victory": "False" },
+    { "ID": 2, "type": "green", "x_coord": 300, "y_coord":450, "width": 50, "height": 50, "next": [3], "victory": "False" },
+    { "ID": 3, "type": "white", "x_coord": 200, "y_coord":400, "width": 100, "height":100, "next": [5,4], "victory": "False" }
+
+  ]
+}
+

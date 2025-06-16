@@ -1,0 +1,21 @@
+{
+  "path": [
+    { "ID": 0, "type": "start", "x_coord": 150, "y_coord": 0, "width": 50, "height": 50, "next": [1] },
+    { "ID": 1, "type": "white", "x_coord": 150, "y_coord": 50, "width": 50, "height": 50, "next": [2] },
+    { "ID": 2, "type": "white", "x_coord": 150, "y_coord": 100, "width": 50, "height": 50, "next": [3] },
+    { "ID": 3, "type": "white", "x_coord": 150, "y_coord": 150, "width": 50, "height": 50, "next": [4, 5] },
+    
+    { "ID": 4, "type": "white", "x_coord": 100, "y_coord": 200, "width": 50, "height": 50, "next": [6] },
+    { "ID": 5, "type": "white", "x_coord": 200, "y_coord": 200, "width": 50, "height": 50, "next": [7] },
+    
+    { "ID": 6, "type": "white", "x_coord": 100, "y_coord": 250, "width": 50, "height": 50, "next": [8] },
+    { "ID": 7, "type": "white", "x_coord": 200, "y_coord": 250, "width": 50, "height": 50, "next": [9] },
+    
+    { "ID": 8, "type": "white", "x_coord": 100, "y_coord": 300, "width": 50, "height": 50, "next": [10] },
+    { "ID": 9, "type": "white", "x_coord": 200, "y_coord": 300, "width": 50, "height": 50, "next": [10] },
+    
+    { "ID": 10, "type": "white", "x_coord": 150, "y_coord": 350, "width": 50, "height": 50, "next": [11] },
+    { "ID": 11, "type": "end", "x_coord": 150, "y_coord": 400, "width": 50, "height": 50 }
+  ]
+}
+

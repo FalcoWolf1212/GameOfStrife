@@ -1,0 +1,9 @@
+{
+  "path": [
+    { "ID": 0, "type": "start", "x_coord": 0, "y_coord": 0, "width": 100, "height": 100, "next": [1]},
+    { "ID": 1, "type": "blue", "x_coord": 100, "y_coord": 0, "width": 50, "height": 50, "next": [2] },
+    { "ID": 2, "type": "blue", "x_coord": 150, "y_coord": 0, "width": 50, "height": 50, "next": [3] },
+    { "ID": 3, "type": "blue", "x_coord": 200, "y_coord": 0, "width": 100, "height": 100, "next": [4] },
+    { "ID": 4, "type": "blue", "x_coord": 300, "y_coord": 0, "width": 50, "height": 50, "next": [0]}
+    ]
+}

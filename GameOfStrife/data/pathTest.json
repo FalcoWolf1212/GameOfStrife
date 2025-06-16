@@ -1,0 +1,23 @@
+{
+  "path": [
+    { "ID": 0, "type": "start", "x_coord": 0, "y_coord": 0, "width": 100, "height": 100, "next": [1], "victory": "False" },
+    { "ID": 1, "type": "white", "x_coord": 100, "y_coord": 0, "width": 50, "height": 50, "next": [2], "victory": "False" },
+    { "ID": 2, "type": "white", "x_coord": 150, "y_coord": 0, "width": 50, "height": 50, "next": [3], "victory": "True" },
+    { "ID": 3, "type": "green", "x_coord": 200, "y_coord": 0, "width": 100, "height": 100, "next": [4], "victory": "False" },
+    { "ID": 4, "type": "white", "x_coord": 300, "y_coord": 0, "width": 50, "height": 50, "next": [5], "victory": "True" },
+    { "ID": 5, "type": "white", "x_coord": 350, "y_coord": 0, "width": 50, "height": 50, "next": [6], "victory": "False" },
+    { "ID": 6, "type": "white", "x_coord": 400, "y_coord": 0, "width": 50, "height": 50, "next": [7], "victory": "False" },
+    { "ID": 7, "type": "white", "x_coord": 400, "y_coord": 50, "width": 50, "height": 50, "next": [8], "victory": "False" },
+    { "ID": 8, "type": "white", "x_coord": 400, "y_coord": 100, "width": 50, "height": 50, "next": [9], "victory": "False" },
+    { "ID": 9, "type": "green", "x_coord": 400, "y_coord": 150, "width": 100, "height": 100, "next": [10], "victory": "False" },
+    { "ID": 10, "type": "white", "x_coord": 500, "y_coord": 150, "width": 50, "height": 50, "next": [11], "victory": "True" },
+    { "ID": 11, "type": "white", "x_coord": 550, "y_coord": 150, "width": 50, "height": 50, "next": [12], "victory": "False" },
+    { "ID": 12, "type": "white", "x_coord": 600, "y_coord": 150, "width": 50, "height": 50, "next": [13], "victory": "False" },
+    { "ID": 13, "type": "green", "x_coord": 650, "y_coord": 150, "width": 100, "height": 100, "next": [14], "victory": "False" },
+    { "ID": 14, "type": "white", "x_coord": 750, "y_coord": 150, "width": 50, "height": 50, "next": [15], "victory": "False" },
+    { "ID": 15, "type": "white", "x_coord": 800, "y_coord": 150, "width": 50, "height": 50, "next": [16], "victory": "True" },
+    { "ID": 16, "type": "white", "x_coord": 800, "y_coord": 100, "width": 50, "height": 50, "next": [17], "victory": "False" },
+    { "ID": 17, "type": "white", "x_coord": 800, "y_coord": 50, "width": 50, "height": 50, "next": [18], "victory": "False" },
+    { "ID": 18, "type": "green", "x_coord": 800, "y_coord": 0, "width": 100, "height": 100, "next": [0], "victory": "True" }
+  ]
+}
