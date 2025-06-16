@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game of Strife</title>
+    <!-- Load CheerpJ runtime -->
+    <script src="https://cjrtnc.leaningtech.com/3.0/loader.js"></script>
+    <style>
+        #game-container {
+            width: 800px;
+            height: 600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container"></div>
+    <script>
+        cheerpjInit({
+            mountedDirs: {
+                '/data': 'https://raw.githubusercontent.com/FalcoWolf1212/GameOfStrife/main/GameOfStrife/data'
+            },
+            cache: true
+        });
+
+        // Create the display area
+        cheerpjCreateDisplay(800, 600, "game-container");
+
+        // Run the JAR from GitHub
+        cheerpjRunJar("https://github.com/FalcoWolf1212/GameOfStrife/raw/main/GameOfStrife/GameOfStrife.jar");
+    </script>
+</body>
+</html>
