@@ -25,12 +25,12 @@ sourceSets {
     }
 }
 
-teavm {
-    entryPoint = 'gui.GameOfStrife'
-    targetType = 'JAVASCRIPT'
-    targetDirectory = file("$buildDir/teavm")
-}
-
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
+}
+
+tasks.named('teavmCompile', org.teavm.gradle.TeaVMTask) {
+    entryPoint = 'gui.GameOfStrife'
+    targetType = org.teavm.tooling.TeaVMTargetType.JAVASCRIPT
+    targetDirectory = file("$buildDir/teavm")
 }
